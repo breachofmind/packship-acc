@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "description": "Pack and Ship for accessories",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "./bin/cli start"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "expressway": "breachofmind/expressway",
+    "expressway-auth": "breachofmind/expressway-auth",
+    "expressway-rest": "breachofmind/expressway-rest",
+    "faker": "^4.1.0",
+    "grenade": "^0.1.1",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "expressway-dev": "breachofmind/expressway-dev",
+    "node-sass": "^4.5.2",
+    "postcss-loader": "^1.3.3",
+    "react-hot-loader": "next",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>${= data.title}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/brightstar.min.css">
+    ${= data.meta }
+    ${= data.styles }
+</head>
+<body>
+<main class="row">
+    @yield(content)
+</main>
+${= data.scripts }
+</body>
+</html>

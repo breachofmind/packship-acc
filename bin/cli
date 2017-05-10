@@ -1,0 +1,14 @@
+#!/usr/local/bin/node
+var app = require('../index');
+
+require('expressway').cli(app,cli => {
+
+    /**
+     * Just a test command.
+     * @usage ./bin/cli hello
+     */
+    cli.command('hello', "A test command").action((env,opts) =>
+    {
+        cli.output(['Hi!'], true);
+    });
+});
